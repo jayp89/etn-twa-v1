@@ -65,7 +65,7 @@ export function EtnCoinAirdrop() {
 
   const WelcomeScreen = () => (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-[#0A2F1E] to-[#133A2A] text-[#F2C94C] p-4">
-      <img src="/placeholder.svg?height=200&width=200" alt="ETN Duck" className="mb-6 w-48 h-48" />
+      <img src="https://etn.ethio-tech.com/brand-assets/logos/coin_full.png" alt="ETN Duck" className="mb-6 w-48 h-48" />
       <h1 className="text-3xl font-bold mb-4 text-center">Welcome to ETN Coin Airdrop!</h1>
       <Button onClick={() => setCurrentScreen('info')} className="bg-gradient-to-r from-[#F2C94C] to-[#D4AF37] text-[#133A2A] hover:from-[#D4AF37] hover:to-[#F2C94C] w-full max-w-xs">
         Continue
